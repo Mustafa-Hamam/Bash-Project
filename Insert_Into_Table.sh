@@ -4,7 +4,7 @@ LC_COLLATE=C #To make the Terminal Case Senstive
 shopt -s extglob #Enable Sub Pattern
 echo "Available Tables:"
 ls $PWD
-read -r -p "Enter Table name : "  table #To make / not to be a Escape char
+read -r -p "Enter Table name to Insert Into: "  table #To make / not to be a Escape char
 table=$(echo $table | tr ' ' '_')
 if [[ $table = [0-9]* ]];then
     echo "Table name can't start with numbers"

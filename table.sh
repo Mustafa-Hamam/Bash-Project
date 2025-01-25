@@ -20,7 +20,7 @@ select choice in Create_Table List_Table Select_From_Table Drop_Table Delete_Fro
         source Drop_table.sh
     ;;
     5)
-        source Delete2.sh
+        source Delete.sh
 
     ;;
     6)

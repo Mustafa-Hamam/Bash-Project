@@ -14,6 +14,8 @@ else
         if [[ -f $drptab ]];then
             rm $PWD/$drptab
             echo "Table Dropped Successfully"
+        else 
+            echo "Invalid Table Name"    
         fi    
     ;;
     *)

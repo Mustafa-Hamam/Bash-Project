@@ -79,7 +79,7 @@ select choice in CreateDB ListDB ConnectDB RemoveDB Exit
     5)
         echo "Exiting MMDBMS.."
         sleep 1
-        break
+        exit 1
     esac
 done    
 
